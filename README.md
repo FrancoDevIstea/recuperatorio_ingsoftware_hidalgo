@@ -65,3 +65,6 @@ Versión publicada:
 ```
 1.0
 ```
+
+## Link repo Dockerhub
+https://hub.docker.com/repository/docker/francohistea/recuperatorio_hidalgo_docker

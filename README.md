@@ -1,70 +1,52 @@
-# Recuperatorio Ingeniería de Software
+# Recuperatorio Ingeniería de Software - HIDALGO FRANCO
 
-## Alumno
-Franco Hidalgo
-
-## Materia
-Ingeniería de Software
-
-## Fecha
-01/07/2026
+## Nombre del proyecto
+Recuperatorio Ingeniería de Software
 
 ## Descripción
-
-Este proyecto fue desarrollado como parte del recuperatorio práctico de la materia Ingeniería de Software.
-
-La aplicación consiste en una página web estática servida mediante un contenedor Docker utilizando Nginx.
+Aplicación web estática desarrollada en HTML y CSS, desplegada mediante un contenedor Docker utilizando Nginx.
 
 ## Tecnologías utilizadas
-
-- HTML5
-- CSS3
+- HTML
+- CSS
 - Docker
 - Nginx
 - Git
 - GitHub
 - Docker Hub
 
-## Estructura del proyecto
+## Pasos para ejecutar la aplicación
 
-```
-├── Dockerfile
-├── README.md
-├── index.html
-└── estilos.css
-```
-
-## Construcción de la imagen
+1. Clonar el repositorio.
+2. Ubicarse en la carpeta del proyecto.
+3. Construir la imagen Docker:
 
 ```bash
 docker build -t recuperatorio_hidalgo_ingsoftware .
 ```
 
-## Ejecución del contenedor
+4. Ejecutar el contenedor:
 
 ```bash
 docker run -d -p 8081:80 recuperatorio_hidalgo_ingsoftware
 ```
 
-## Imagen publicada en Docker Hub
-
-Usuario:
+5. Abrir el navegador e ingresar a:
 
 ```
-francohistea
+http://localhost:8081
 ```
 
-Repositorio:
+## Comandos utilizados para construir la imagen
 
-```
-francohistea/recuperatorio_hidalgo_docker
-```
-
-Versión publicada:
-
-```
-1.0
+```bash
+docker build -t recuperatorio_hidalgo_ingsoftware .
 ```
 
-## Link repo Dockerhub
+## Enlace a GitHub
+
+https://github.com/FrancoDevIstea/recuperatorio_ingsoftware_hidalgo
+
+## Enlace a la imagen publicada en Docker Hub
+
 https://hub.docker.com/repository/docker/francohistea/recuperatorio_hidalgo_docker
